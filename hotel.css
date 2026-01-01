@@ -1,0 +1,375 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #f2ede1;
+    position: sticky;
+    top: 0px;
+    z-index: 1050;
+
+}
+
+.nav-item {
+    font-weight: 1200 !important;
+    font-size: 20px;
+    color: #30302f;
+}
+
+.nav-item:hover a {
+    color: #bb9c53 !important;
+    text-decoration: underline;
+
+}
+
+.activation {
+    color: #bb9c53 !important;
+}
+
+.nav_btn {
+    background-color: #bb9c53;
+    color: white;
+    font-weight: 700;
+}
+
+.nav_btn:hover {
+    background-color: black !important;
+    color: #bb9c53 !important;
+    font-weight: 600;
+}
+
+body {
+    background-color: rgb(242, 237, 225);
+}
+
+.top_section_hp {
+    width: 100%;
+    height: auto;
+    background-color: #272727;
+    clip-path: polygon(0 0,
+            100% 0,
+            100% 85%,
+            50% 100%,
+            0 85%);
+}
+
+.font_class {
+    font-size: 60px !important;
+    color: #ddd3bc !important;
+}
+
+.text_second_cl {
+    color: #f2ede1 !important;
+}
+
+.btn_cllasess {
+    background-color: #b59b5c;
+    color: white;
+
+}
+
+.btn_cllasess:hover {
+    background-color: black !important;
+    border: 2px solid #b59b5c !important;
+    box-sizing: border-box;
+    color: #bb9c53;
+}
+
+.Sec_third_hoteal_card {
+    width: 100%;
+    height: auto;
+}
+
+.card_sec {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.third_img_content {
+    width: 100%;
+    height: auto;
+    background-color: #272727;
+}
+
+.sub_section_hotel_page {
+    width: 100%;
+    height: auto;
+    background-color: #ddd3bc;
+}
+
+.ho_button_sec {
+    background-color: #b59b5c !important;
+    height: 60px;
+}
+
+.ho_button_sec:hover {
+    background-color: #30302f !important;
+    color: #b59b5c !important;
+
+}
+
+.Explore_section {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.map_sec {
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    background-color: #272727;
+}
+
+.lst_second_content {
+    width: 100%;
+    height: auto;
+    background-color: #f2ede1;
+}
+
+.lst_btn1 {
+    width: 250px;
+    height: 60px;
+    background-color: #b59b5c;
+    color: white;
+}
+
+.lst_btn2 {
+    width: 250px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.lst_btn1:hover {
+    background-color: black;
+    color: #bb9c53 !important;
+}
+
+.lst_btn2:hover {
+    background-color: rgb(62, 60, 60) !important;
+    color: #bb9c53 !important;
+}
+
+.tt1 {
+    font-size: 55px !important;
+
+}
+
+.tt2 {
+    font-size: 60px !important;
+    color: #b59b5c !important;
+}
+
+.tt3 {
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.foot {
+    width: 100%;
+    height: auto;
+    background-color: #f2ede1;
+
+}
+
+
+.container_foot img {
+    width: 90%;
+    height: auto;
+    display: block;
+}
+
+
+.footer_final {
+    width: 100%;
+    height: auto;
+    background-color: rgb(22, 21, 21);
+}
+
+.h1 h1 {
+
+    color: rgb(143, 5, 5) !important;
+    z-index: 45896 !important;
+}
+
+.icon_footer {
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+.footer_final {
+    background: #111;
+    padding: 60px 0;
+}
+
+.icon_footer {
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .images img {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+.footer_final {
+    background: #111;
+    padding: 60px 0;
+}
+
+.icon_footer {
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .footer_final {
+        text-align: center;
+    }
+}
+
+.scroll-top {
+    width: 60px;
+    height: 60px;
+    background: #bfbab2;
+    /* grey circle */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scroll-top i {
+    font-size: 22px;
+    color: #fff;
+}
+
+.container11 h1 {
+    color: #111 !important;
+}
+
+.container11 p {
+    color: #bb9c53 !important;
+}
+
+.card1 p {
+    color: black !important;
+    font-size: 20px !important;
+}
+
+.card_one_container1 p {
+    color: black !important;
+    text-align: center;
+
+}
+
+.card_1_img img {
+    width: 100%;
+    height: 550px;
+
+}
+
+.container_sec_food {
+    width: 100%;
+    height: auto;
+}
+
+.Ourroom {
+    width: 100%;
+    height: auto;
+    background-color: #272727;
+}
+
+.ouroomimg1 {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://bergenharbourhotel.no/wp-content/uploads/2024/01/Superior-King-Room-3-1024x688-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ouroomimg2 {
+    width: 100%;
+      height: 200px;
+    background-image: url('https://bergenharbourhotel.no/wp-content/uploads/2024/01/superior-twin.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ouroomimg3 {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://bergenharbourhotel.no/wp-content/uploads/2024/01/507-standard-room-1-scaled-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    ;
+}
+
+.ouroomimg4 {
+    width: 100%;
+     height: 200px;
+    background-image: url('https://bergenharbourhotel.no/wp-content/uploads/2024/01/13-1-1-scaled-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    ;
+
+}
+
+.ouroomimg5 {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://bergenharbourhotel.no/wp-content/uploads/2024/01/Bergen-Harbour-Standard-Single-1-1024x614-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.ouroomimg6 {
+    width: 100%;
+   height: 200px;
+    background-image: url('https://bergenharbourhotel.no/wp-content/uploads/2024/01/Bergen-Harbour-Standard-Queen-bedroom-scaled-e1648711820671.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
